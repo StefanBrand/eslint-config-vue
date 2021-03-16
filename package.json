@@ -1,7 +1,7 @@
 {
-  "name": "@eox/eslint-config",
+  "name": "@eox/eslint-config-vue",
   "version": "0.1.0",
-  "description": "EOX ESLint config",
+  "description": "EOX Vue ESLint config",
   "main": "index.js",
   "repository": "https://github.com/EOX-A/eslint-config",
   "author": "komninoschat <komninoschat@gmail.com>",
