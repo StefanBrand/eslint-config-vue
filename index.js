@@ -13,12 +13,20 @@ module.exports = {
   rules: {
     'global-require': 'off',
     'import/no-dynamic-require': 'off',
+    'import/no-extraneous-dependencies':[
+       'error',
+       {
+          'devDependencies':[
+             '**/webpack.*.js',
+          ],
+       },
+    ],
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-underscore-dangle': 'off',
     'no-prototype-builtins': 'off',
     'no-plusplus': 'off',
     'no-return-assign': 'off',
-    'no-mixed-operators': 'off'
-  }
+    'no-mixed-operators': 'off',
+  },
 };
