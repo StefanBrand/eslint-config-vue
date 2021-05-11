@@ -13,14 +13,6 @@ module.exports = {
   rules: {
     'global-require': 'off',
     'import/no-dynamic-require': 'off',
-    'import/no-extraneous-dependencies':[
-       'error',
-       {
-          'devDependencies':[
-             '**/webpack.*.js',
-          ],
-       },
-    ],
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-underscore-dangle': 'off',
