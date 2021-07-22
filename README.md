@@ -1,7 +1,7 @@
 # EOX Vue ESLint config
 ## Installation
 ```js
-npm install -D git+ssh://git@github.com:EOX-A/eslint-config-vue.git
+npm install -D git+https://github.com/EOX-A/eslint-config-vue.git
 ```
 ## Usage
 To include this on a project, add to `.eslintrc.js`:
