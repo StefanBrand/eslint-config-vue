@@ -4,7 +4,7 @@
   "description": "EOX Vue ESLint config",
   "main": "index.js",
   "repository": "https://github.com/EOX-A/eslint-config",
-  "author": "komninoschat <komninoschat@gmail.com>",
+  "author": "EOX",
   "license": "MIT",
   "peerDependencies": {
     "eslint": "6"
