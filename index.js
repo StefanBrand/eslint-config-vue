@@ -29,8 +29,8 @@ module.exports = {
     'vue/array-bracket-newline': ['error', 'always'],
     'object-property-newline': ['error', { 'allowAllPropertiesOnSameLine': false }],
     'vue/object-property-newline': 'error',
-    'object-curly-newline': ['error','always'],
-    'modules-newline/import-declaration-newline': 'error',
-    'modules-newline/export-declaration-newline': 'error',
+    'object-curly-newline': ['error', 'always'],
+    '@spence1115/modules-newlines/import-declaration-newline': 'error',
+    '@spence1115/modules-newlines/export-declaration-newline': 'error',
   },
 };
