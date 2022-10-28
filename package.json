@@ -1,6 +1,6 @@
 {
   "name": "@eox/eslint-config-vue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "EOX Vue ESLint config",
   "main": "index.js",
   "repository": "https://github.com/EOX-A/eslint-config",
