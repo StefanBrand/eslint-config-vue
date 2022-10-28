@@ -8,7 +8,7 @@ module.exports = {
     'plugin:vue/strongly-recommended', '@vue/airbnb',
   ],
   plugins: [
-    'modules-newline',
+    '@spence1115/modules-newlines',
   ],
   parserOptions: {
     parser: 'babel-eslint'
